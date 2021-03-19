@@ -54,18 +54,23 @@ namespace menu
             this.accordionControlElement3 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement4 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
+            this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
             this.fluentDesignFormContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.timeEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // fluentDesignFormContainer1
             // 
             this.fluentDesignFormContainer1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.fluentDesignFormContainer1.Appearance.Options.UseBackColor = true;
+            this.fluentDesignFormContainer1.Controls.Add(this.buttonEdit1);
+            this.fluentDesignFormContainer1.Controls.Add(this.bunifuDatepicker2);
             this.fluentDesignFormContainer1.Controls.Add(this.bunifuDatePicker1);
             this.fluentDesignFormContainer1.Controls.Add(this.timeEdit1);
             this.fluentDesignFormContainer1.Controls.Add(this.bunifuDropdown1);
@@ -408,6 +413,28 @@ namespace menu
             this.fluentDesignFormControl1.TabIndex = 2;
             this.fluentDesignFormControl1.TabStop = false;
             // 
+            // bunifuDatepicker2
+            // 
+            this.bunifuDatepicker2.BackColor = System.Drawing.Color.SeaGreen;
+            this.bunifuDatepicker2.BorderRadius = 0;
+            this.bunifuDatepicker2.ForeColor = System.Drawing.Color.White;
+            this.bunifuDatepicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.bunifuDatepicker2.FormatCustom = null;
+            this.bunifuDatepicker2.Location = new System.Drawing.Point(464, 311);
+            this.bunifuDatepicker2.Name = "bunifuDatepicker2";
+            this.bunifuDatepicker2.Size = new System.Drawing.Size(303, 36);
+            this.bunifuDatepicker2.TabIndex = 10;
+            this.bunifuDatepicker2.Value = new System.DateTime(2021, 3, 19, 23, 32, 29, 760);
+            // 
+            // buttonEdit1
+            // 
+            this.buttonEdit1.Location = new System.Drawing.Point(173, 59);
+            this.buttonEdit1.Name = "buttonEdit1";
+            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.buttonEdit1.Size = new System.Drawing.Size(100, 20);
+            this.buttonEdit1.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -430,6 +457,7 @@ namespace menu
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -452,6 +480,8 @@ namespace menu
         private DevExpress.XtraEditors.TrackBarControl trackBarControl1;
         private DevExpress.XtraEditors.TimeEdit timeEdit1;
         private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker1;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
+        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker2;
     }
 }
 
