@@ -141,3 +141,11 @@ C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\d
 C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\obj\Debug\menu.csproj.CopyComplete
 C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\obj\Debug\menu.exe
 C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\obj\Debug\menu.pdb
+C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\bin\Debug\DevExpress.Xpo.v19.2.dll
+C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\bin\Debug\DevExpress.Xpo.v19.2.xml
+C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\obj\Debug\menu.dangnhap.resources
+C:\Users\Van_Binh_16\Desktop\đồ án\project-graduatings\file tốt nghiệp\doan1\menu\obj\Debug\menu.Form2.resources
