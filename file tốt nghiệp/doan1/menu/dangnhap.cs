@@ -32,9 +32,38 @@ namespace menu
         }
 
 
-        private void dangnhap_Load(object sender, EventArgs e)
+       
+        
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
+            DialogResult h = MessageBox.Show
+             ("Bạn có chắc muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);     
+            if (h == DialogResult.Yes)
+            {
+                Application.Exit();
+            }    
+        }
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            string user = "binh";
+            string pass = "1234";
+            if (user.Equals(txtdangnhap.Text) && pass.Equals(txtpass.Text))
+            {
+                MessageBox.Show("Dang nhap thanh cong");
+            }
+            else
+                MessageBox.Show("Sai tai khoan hoac mat khau");
+        }
 
+        private void txtpass_TextChange(object sender, EventArgs e)
+        {
+            if (txtpass.TextLength.ToString()!=null)
+            {
+                txtpass.UseSystemPasswordChar = true;               
+            }
+            else
+                txtpass.UseSystemPasswordChar = false;
+           
         }
     }
 }

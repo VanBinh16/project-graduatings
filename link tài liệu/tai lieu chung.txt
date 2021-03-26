@@ -3,3 +3,5 @@ thu vien cai dat: https://drive.google.com/drive/folders/1gLDf16mUrn-XxMCmsWPQAQ
 video cai dat bunifu-winforms: https://www.youtube.com/watch?v=Da8HMx5Lr88&t=309s
 
 thuoc tinh form: http://info24h.vn/lap-trinh-xu-ly-giao-dien-trong-winform-voi-c-183.html
+
+entity: https://giasutinhoc.vn/huong-dan-thuc-hanh/huong-dan-csharp/huong-dan-su-dung-entity-framework-trong-csharp/
